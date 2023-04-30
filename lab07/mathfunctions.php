@@ -1,9 +1,4 @@
 <?php
-/* mathfunctions.php
-   Collection of user-defined maths functions
-   Like any code you should start your file with a header comment
-   Author: A. Tutor
-*/
  
 function factorial ($n) {	// declare the factorial function
 	$result = 1;		// declare and initialise the result variable
@@ -11,7 +6,7 @@ function factorial ($n) {	// declare the factorial function
 	while ($factor > 1) {	// loop to multiple all factors until 1
 	  $result = $result * $factor;
 	  $factor--;		// next factor
-	}				// Note that the factor 1 is not multiplied
+	}			// Note that the factor 1 is not multiplied
 	return $result;
 }
 ?>
